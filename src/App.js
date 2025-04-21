@@ -62,16 +62,16 @@ function App() {
                   A simple app that shows weather based on city input using a
                   public API.
                 </p>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                {/* <a href="#" target="_blank" rel="noopener noreferrer">
                   View Project
-                </a>
+                </a> */}
               </div>
               <div className="project-card">
                 <h3>Joke Generator</h3>
                 <p>Fetches random jokes from an API. Interactive and fun!</p>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                {/* <a href="#" target="_blank" rel="noopener noreferrer">
                   View Project
-                </a>
+                </a> */}
               </div>
               <div className="project-card">
                 <h3>To-Do List</h3>
@@ -79,9 +79,9 @@ function App() {
                   A clean and functional to-do list using React hooks and local
                   storage.
                 </p>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                {/* <a href="#" target="_blank" rel="noopener noreferrer">
                   View Project
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
