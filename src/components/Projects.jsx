@@ -13,7 +13,7 @@ const projects = [
   },
   {
     title: 'Responsive Portfolio Site',
-    description: 'A clean personal portfolio built with React and Tailwind.',
+    description: 'A clean personal portfolio built with React.',
     link: '#',
   },
 ];

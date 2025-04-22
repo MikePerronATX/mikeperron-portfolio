@@ -67,11 +67,19 @@ function App() {
                 </a> */}
               </div>
               <div className="project-card">
-                <h3>Joke Generator</h3>
-                <p>Fetches random jokes from an API. Interactive and fun!</p>
-                {/* <a href="#" target="_blank" rel="noopener noreferrer">
-                  View Project
-                </a> */}
+                <h3>Netflix-like Movie App</h3>
+                <p>
+                  A clone of the Netflix homepage with movie browsing, search,
+                  and detailed views.
+                </p>
+                <a
+                  href="https://mikeperron-movieflix.netlify.app"
+                  className="project-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Project
+                </a>
               </div>
               <div className="project-card">
                 <h3>To-Do List</h3>
