@@ -100,7 +100,7 @@ function App() {
           <div className="container">
             <h2>Contact Me</h2>
             <form
-              action="https://contact-backend-nq28.onrender.com/contact"
+              action="https://contact-backend-nm2l.onrender.com/contact"
               method="POST"
             >
               <input type="text" name="name" placeholder="Your Name" required />
