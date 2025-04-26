@@ -81,15 +81,15 @@ function App() {
                   Visit Project
                 </a>
               </div>
-              <div className="project-card">
-                <h3>To-Do List</h3>
+              <div class="project-card">
+                <h3>Job Search App</h3>
                 <p>
-                  A clean and functional to-do list using React hooks and local
-                  storage.
+                  Find jobs by title and location. Built with React and Vite and
+                  connected to a live job search API.
                 </p>
-                {/* <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="/projects/job-search-app/index.html" target="_blank">
                   View Project
-                </a> */}
+                </a>
               </div>
             </div>
           </div>
