@@ -7,13 +7,13 @@ const projects = [
     link: '#',
   },
   {
-    title: 'To-Do List with Persistence',
-    description: 'A modern task manager built with React and local storage.',
-    link: '#',
+    title: 'Job Search App',
+    description: 'Find remote jobs by title and location. Built with React, JSearch API, and custom backend.',
+    link: 'https://myjob-search-app.netlify.app',
   },
   {
     title: 'Responsive Portfolio Site',
-    description: 'A clean personal portfolio built with React.',
+    description: 'A clean, mobile-first personal portfolio built with React.',
     link: '#',
   },
 ];
@@ -33,6 +33,8 @@ const Projects = () => {
               <p className="text-gray-600 mb-4">{project.description}</p>
               <a
                 href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-blue-500 hover:text-blue-700 font-medium"
               >
                 View Project →
