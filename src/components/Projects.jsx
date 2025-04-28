@@ -4,17 +4,17 @@ const projects = [
   {
     title: 'Interactive Weather App',
     description: 'A React app that fetches real-time weather data from an API.',
-    link: '#',
+    link: '/projects/weather-app/index.html',
   },
   {
     title: 'Job Search App',
-    description: 'Find remote jobs by title and location. Built with React, JSearch API, and custom backend.',
-    link: 'https://myjob-search-app.netlify.app',
+    description: 'Find jobs by title and location. Built with React and Vite, connected to a live jobs API.',
+    link: '/projects/job-search-app/index.html',
   },
   {
     title: 'Responsive Portfolio Site',
-    description: 'A clean, mobile-first personal portfolio built with React.',
-    link: '#',
+    description: 'A clean personal portfolio built with React.',
+    link: '/',
   },
 ];
 
