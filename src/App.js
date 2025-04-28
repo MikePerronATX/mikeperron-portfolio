@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -52,48 +53,7 @@ function App() {
         </section>
 
         {/* Projects Section */}
-        <section className="projects" id="projects">
-          <div className="container">
-            <h2>Projects</h2>
-            <div className="project-list">
-              <div className="project-card">
-                <h3>Weather App</h3>
-                <p>
-                  A simple app that shows weather based on city input using a
-                  public API.
-                </p>
-                {/* <a href="#" target="_blank" rel="noopener noreferrer">
-                  View Project
-                </a> */}
-              </div>
-              <div className="project-card">
-                <h3>Netflix-like Movie App</h3>
-                <p>
-                  A clone of the Netflix homepage with movie browsing, search,
-                  and detailed views.
-                </p>
-                <a
-                  href="https://mikeperron-movieflix.netlify.app"
-                  className="project-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  Visit Project
-                </a>
-              </div>
-              <div class="project-card">
-                <h3>Job Search App</h3>
-                <p>
-                  Find jobs by title and location. Built with React and Vite and
-                  connected to a live job search API.
-                </p>
-                <a href="/projects/job-search-app/index.html" target="_blank">
-                  View Project
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
+        <Projects />
 
         {/* Contact Section */}
         <section className="contact" id="contact">
